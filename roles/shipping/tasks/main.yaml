@@ -22,7 +22,7 @@
     chdir: /app
 
 - name: Import system setup
-  ansible.builtin.import_roles:
+  ansible.builtin.import_role:
     name: common
     tasks_from: systemd-setup.yaml
 
